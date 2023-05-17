@@ -2,6 +2,8 @@
 
 ## Update (17th may 2023): This repository is currently under construction and will be up-and-running within a few days.
 
+Our research group implemented established deep learning frameworks and investigated their ability to delineate tumour volumes on PET/CT images.
+
 Information about this study inluding the protocol and statistical analysis plan (SAP) is available at: 
 
 https://www.rigshospitalet.dk/english/departments/centre-of-diagnostic-investigation/department-of-clinical-physiology-nuclear-medicine-and-pet/research/research-projects/Pages/default.aspx

@@ -12,6 +12,8 @@ https://www.isrctn.com/ISRCTN16907234?q=16907234&filters=&sort=&offset=1&totalRe
 
 Please cite the following paper, if you are using the tools shared in this repository:
     Will be added upon publication
+    
+![hnc-tumour-seg](research-dia-kf.jpg)
 
 ### Introduction
 This repository holds all code we used to implement five different openly available Deep Learning methods.

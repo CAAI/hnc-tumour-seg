@@ -1,6 +1,6 @@
 # Clinical evaluation of deep learning for tumour segmentation on PET/CT scans of head and neck cancer
 
-## Update (17th may 2023): This repository is currently under development and will be up-and-running within a few days.
+## Update (17th may 2023): This repository is currently under construction and will be up-and-running within a few days.
 
 Information about this study inluding the protocol and statistical analysis plan (SAP) is available at: 
 

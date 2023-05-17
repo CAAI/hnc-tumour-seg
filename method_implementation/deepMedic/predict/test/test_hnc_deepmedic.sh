@@ -1,0 +1,9 @@
+# purpose: predict nnUNet final model on test dataset HNC02 with 196 patients.
+# file can be run from folder .../deepMedic/config_files/model.
+# NOTE: File cannot be run from MEDIcaTe/implemented_methods_deepMedic_/predict/test/ it needs to be moved to the location of the model config files!
+
+#time ( deepMedicRun -model ./modelConfig_HNC_f0.cfg -test ../test/testConfig_HNC_r196_m0.cfg -load ../../output/output_HNC_f0/saved_models/trainSessionHNC0/deepMedicHNC_f0.trainSessionHNC0.final.2022-05-04.18.29.22.643919.model.ckpt -dev cuda ) &> model1_output_time_deep_medic.txt
+time ( deepMedicRun -model ./modelConfig_HNC_f1.cfg -test ../test/testConfig_HNC_r196_m1.cfg -load ../../output/output_HNC_f1/saved_models/trainSessionHNC1/deepMedicHNC_f1.trainSessionHNC1.final.2022-05-06.23.30.55.220415.model.ckpt -dev cuda ) &> model2_output_time_deep_medic.txt
+time ( deepMedicRun -model ./modelConfig_HNC_f2.cfg -test ../test/testConfig_HNC_r196_m2.cfg -load ../../output/output_HNC_f2/saved_models/trainSessionHNC2/deepMedicHNC_f2.trainSessionHNC2.final.2022-05-09.03.19.22.271867.model.ckpt -dev cuda ) &> model3_output_time_deep_medic.txt
+time ( deepMedicRun -model ./modelConfig_HNC_f3.cfg -test ../test/testConfig_HNC_r196_m3.cfg -load ../../output/output_HNC_f3/saved_models/trainSessionHNC3/deepMedicHNC_f3.trainSessionHNC3.final.2022-05-04.18.26.01.841199.model.ckpt -dev cuda ) &> model4_output_time_deep_medic.txt
+time ( deepMedicRun -model ./modelConfig_HNC_f4.cfg -test ../test/testConfig_HNC_r196_m4.cfg -load ../../output/output_HNC_f4/saved_models/trainSessionHNC4/deepMedicHNC_f4.trainSessionHNC4.final.2022-05-06.23.44.07.115762.model.ckpt -dev cuda ) &> model5_output_time_deep_medic.txt

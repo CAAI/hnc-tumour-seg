@@ -1,4 +1,4 @@
-# hnc-tumour-seg
+# Clinical evaluation of deep learning for tumour segmentation on PET/CT scans of head and neck cancer
 Sharing of code related to clinical validation of open-source deep learning methods for automated tumour volume delineation on FDG-PET/CT scans of head and neck cancer.
 
 Note: The code will become available online after this work has been published in a peer-reviewed journal.
@@ -11,3 +11,5 @@ and
 
 https://www.isrctn.com/ISRCTN16907234?q=16907234&filters=&sort=&offset=1&totalResults=1&page=1&pageSize=10
 
+Please cite the following paper, if you are using the tools shared in this repository:
+    <Will be added upon publication>

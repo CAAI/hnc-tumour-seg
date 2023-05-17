@@ -1,0 +1,29 @@
+
+
+Please cite the following paper when using nnUNet:
+
+Isensee, F., Jaeger, P.F., Kohl, S.A.A. et al. "nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation." Nat Methods (2020). https://doi.org/10.1038/s41592-020-01008-z
+
+
+If you have questions or suggestions, feel free to open an issue at https://github.com/MIC-DKFZ/nnUNet
+
+using model stored in  /homes/kovacs/project_data/hnc-auto-contouring/nnUNet/nnUNet_trained_models/nnUNet/3d_lowres/Task500_HNC01/nnUNetTrainerV2__nnUNetPlansv2.1
+This model expects 2 input modalities for each image
+Found 125 unique case ids, here are some examples: ['HNC05_124' 'HNC05_060' 'HNC05_116' 'HNC05_119' 'HNC05_044' 'HNC05_080'
+ 'HNC05_038' 'HNC05_007' 'HNC05_068' 'HNC05_108']
+If they don't look right, make sure to double check your filenames. They must end with _0000.nii.gz etc
+number of cases: 125
+number of cases that still need to be predicted: 0
+emptying cuda cache
+loading parameters for folds, None
+folds is None so we will automatically look for output folders (not using 'all'!)
+found the following folds:  ['/homes/kovacs/project_data/hnc-auto-contouring/nnUNet/nnUNet_trained_models/nnUNet/3d_lowres/Task500_HNC01/nnUNetTrainerV2__nnUNetPlansv2.1/fold_0', '/homes/kovacs/project_data/hnc-auto-contouring/nnUNet/nnUNet_trained_models/nnUNet/3d_lowres/Task500_HNC01/nnUNetTrainerV2__nnUNetPlansv2.1/fold_1', '/homes/kovacs/project_data/hnc-auto-contouring/nnUNet/nnUNet_trained_models/nnUNet/3d_lowres/Task500_HNC01/nnUNetTrainerV2__nnUNetPlansv2.1/fold_2', '/homes/kovacs/project_data/hnc-auto-contouring/nnUNet/nnUNet_trained_models/nnUNet/3d_lowres/Task500_HNC01/nnUNetTrainerV2__nnUNetPlansv2.1/fold_3', '/homes/kovacs/project_data/hnc-auto-contouring/nnUNet/nnUNet_trained_models/nnUNet/3d_lowres/Task500_HNC01/nnUNetTrainerV2__nnUNetPlansv2.1/fold_4']
+using the following model files:  ['/homes/kovacs/project_data/hnc-auto-contouring/nnUNet/nnUNet_trained_models/nnUNet/3d_lowres/Task500_HNC01/nnUNetTrainerV2__nnUNetPlansv2.1/fold_0/model_final_checkpoint.model', '/homes/kovacs/project_data/hnc-auto-contouring/nnUNet/nnUNet_trained_models/nnUNet/3d_lowres/Task500_HNC01/nnUNetTrainerV2__nnUNetPlansv2.1/fold_1/model_final_checkpoint.model', '/homes/kovacs/project_data/hnc-auto-contouring/nnUNet/nnUNet_trained_models/nnUNet/3d_lowres/Task500_HNC01/nnUNetTrainerV2__nnUNetPlansv2.1/fold_2/model_final_checkpoint.model', '/homes/kovacs/project_data/hnc-auto-contouring/nnUNet/nnUNet_trained_models/nnUNet/3d_lowres/Task500_HNC01/nnUNetTrainerV2__nnUNetPlansv2.1/fold_3/model_final_checkpoint.model', '/homes/kovacs/project_data/hnc-auto-contouring/nnUNet/nnUNet_trained_models/nnUNet/3d_lowres/Task500_HNC01/nnUNetTrainerV2__nnUNetPlansv2.1/fold_4/model_final_checkpoint.model']
+starting preprocessing generator
+starting prediction...
+inference done. Now waiting for the segmentation export to finish...
+postprocessing...
+
+real	0m33.020s
+user	0m44.811s
+sys	0m9.776s

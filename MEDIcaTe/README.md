@@ -1,67 +1,10 @@
 Deep learning for head and neck cancer segmentation<a name="TOP"></a>
 
-### Credentials
-If any of this work is useful to you, please cite:
-...
-
-### Introduction
-This repository holds all code I used to implement five different openly available Deep Learning methods.
-
-Methods implemented:
-* Deep Medic. [Original repo.](https://github.com/deepmedic/deepmedic) [My copy.](https://github.com/MedTekHuset/deepmedic_DGK)
-* nnUNet. [Original repo.](https://github.com/MIC-DKFZ/nnUNet) [My copy.](https://github.com/MedTekHuset/nnUNet-DGK)
-* Tureckova. [Original repo.](https://github.com/tureckova/Abdomen-CT-Image-Segmentation) [My copy.](https://github.com/MedTekHuset/tureckova-DGK)
-* SinUNETR. [Original repo.](https://github.com/Project-MONAI/research-contributions/tree/main/SwinUNETR/BTCV) [My copy.](https://github.com/MedTekHuset/SwinUNETR-DGK)
-* InnerEye. [Original repo.](https://github.com/microsoft/InnerEye-DeepLearning) [My copy.](https://github.com/MedTekHuset/InnerEye-DeepLearning-DGK)
-
--- List the structure of the repo and how to use it.
-
--- Add link to my version of the original repo's. 
-
 
 
 # MEDIcaTe
 ## Purpose
 The MEDIcaTe-package is an image processing tools for 3d multimodality medical images (such as PET-CT images). The purpose and function of the MEDIcaTE-package can be devided into two parts, reflected by the two subfolders, implemented_methods and MEDIcaTe. The former includes scripts from external sources and has the purpose of ... . The latter MEDIcaTe subfolder includes scripts purposely designed for medical image processing including tools for visualization and calculating dice and hausdorff coefficient as a measure of comparison between different areas referred to as labels.   
-
-The MEDIcaTe-package are organized as follows:
-   MEDIcaTe/
-    ├── implemented_methods
-    │     └── deepMedic
-    │           ├── fold_0
-    │           ├── fold_1
-    │           └── fold_4
-    │     └── inner-eye
-    │           ├── fold_0
-    │           ├── fold_1
-    │           └── fold_4
-    │     └── swin-unetr
-    │           ├── fold_0
-    │           ├── fold_1
-    │           └── fold_4
-    │                 ├── fold_0
-    │                 └── fold_1
-    ├── MEDIcaTe
-    │     ├── calculate_dice_haus.py
-    │     ├── extrafunctions.py
-    │     ├── file_folder_ops.py
-    │     ├── majority_vote.py
-    │     ├── nii_resampling.py
-    │     ├── normalize.py
-    │     ├── visualization.py
-    │     ├── roi_generators.py
-    │     └── utilities.py
-    ├── test
-    │     ├── label1
-    │          └── HNC03_000.nii.gz
-    │     ├── label2
-    │          └── HNC03_000.nii.gz
-    │     ├── HNC03_000_0000.nii.gz
-    │     ├── HNC03_000_0001.nii.gz
-    │     └── test.py
-    ├── medicate-env.txt
-    ├── README.txt
-    └── setup.py
 
 
 ## Installation

@@ -24,7 +24,7 @@ When using this mode a copy of MEDIcaTE is created on your computer, hence allow
 ## Prerequisites
 Running scripts in MEDIcaTe requires installation of specific packages and libaries. medicate-env.txt contains a txt-file copy of a conda environment that fullfill requirements. A copy of the enviorment can be attained by using:
 ```bash
-    conda env create --file medicate-env.txt.
+    conda create --name [env_name] --file medicate-env.txt
 ```
 To ensure that requirement are fullfilled a test run with example files can be initiated by running test.py. If test.py run succesfully, requirements are fullfilled.
 

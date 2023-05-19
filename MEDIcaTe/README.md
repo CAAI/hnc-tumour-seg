@@ -30,6 +30,7 @@ To ensure that requirement are fullfilled a test run with example files can be i
 
 ## Usage
 When using MEDIcaTe images (ct and pet) and labels must be 3D nifti files (.nii.gz)! An example of how to structure 3D nifti files to use as inputs are illustrated below:
+```
   data/
     ├── output
     │     └── 
@@ -56,6 +57,8 @@ When using MEDIcaTe images (ct and pet) and labels must be 3D nifti files (.nii.
     │          ├── HNC03_002.nii.gz
     │          └── HNC03_003.nii.gz     
     └── setup.py
+```  
+
 Using the above structure, MEDIcaTe tools can be called as command line functions, with the structure descriped in the EXAMPLES below.
 Labels must be, when converted from nifti to numpy array, represented as binary array. where 1 represents label and 0 represents background.  
 ### Command line functions

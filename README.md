@@ -28,6 +28,6 @@ Methods implemented:
 
 The MEDIcaTe package contains the tools used to pre-process and analyze image data (this draws heavily on well-established tools - you might prefer to use those directly.)
 
-The folder "implemented-methods" uses the MEDIcaTe package and contains all code necessary use the deep learning methods, i.e. to ensure the data adheres to the specifications of each method, and code to calculate evaluation metrics and visualise the output of the methods. 
+The folder "method_implementation" uses the MEDIcaTe package and contains all code necessary use the deep learning methods, i.e. to ensure the data adheres to the specifications of each method, and code to calculate evaluation metrics and visualise the output of the methods. 
 
 

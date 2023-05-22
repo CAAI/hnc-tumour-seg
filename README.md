@@ -35,3 +35,14 @@ The MEDIcaTe package contains the tools used to pre-process and analyze image da
 The folder "method_implementation" uses the MEDIcaTe package and contains all code necessary use the deep learning methods, i.e. to ensure the data adheres to the specifications of each method, and code to calculate evaluation metrics and visualise the output of the methods. 
 
 
+## System information
+Operating System: Ubuntu 20.04.4 LTS
+* Kernel: Linux 5.13.0-51-generic
+* Architecture: x86-64
+* CUDA/cuDNN version:
+* pytorch 1.11.0 py3.7_cuda11.3_cudnn8.2.0_0 pytorch
+* cudatoolkit 11.3.1 h2bc3f7f_2 '''
+
+GPU models and configuration:
+* NVIDIA A6000
+* NVIDIA-SMI 470.57.02 Driver Version: 470.57.02 CUDA Version: 11.4

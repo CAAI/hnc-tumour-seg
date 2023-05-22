@@ -2,6 +2,8 @@
 
 ## Update (17th may 2023): This repository is currently under construction and will be up-and-running within a few days.
 
+Our research group implemented established deep learning frameworks and investigated their ability to delineate tumour volumes on PET/CT images.
+
 Information about this study inluding the protocol and statistical analysis plan (SAP) is available at: 
 
 https://www.rigshospitalet.dk/english/departments/centre-of-diagnostic-investigation/department-of-clinical-physiology-nuclear-medicine-and-pet/research/research-projects/Pages/default.aspx
@@ -12,6 +14,8 @@ https://www.isrctn.com/ISRCTN16907234?q=16907234&filters=&sort=&offset=1&totalRe
 
 Please cite the following paper, if you are using the tools shared in this repository:
     Will be added upon publication
+    
+![hnc-tumour-seg](research-dia-kf.jpg)
 
 ### Introduction
 This repository holds all code we used to implement five different openly available Deep Learning methods.

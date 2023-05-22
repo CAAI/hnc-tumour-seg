@@ -12,8 +12,8 @@ MEDIcaTe is tested on and supported by Python 3. Earlier versions are not guaran
 
 MEDIcaTe is installed by using the following lines.
 ```bash
-    git clone https://github.com/MedTekHuset/MEDIcaTe
-    cd MEDIcaTe
+    git clone https://github.com/CAAI/hnc-tumour-seg
+    cd hnc-tumour-seg/MEDIcaTe
 ```
 ### Install editable mode:
 ```pip install -e .``` 
@@ -24,7 +24,7 @@ When using this mode a copy of MEDIcaTE is created on your computer, hence allow
 ## Prerequisites
 Running scripts in MEDIcaTe requires installation of specific packages and libaries. medicate-env.txt contains a txt-file copy of a conda environment that fullfill requirements. A copy of the enviorment can be attained by using:
 ```bash
-    conda create --name [env_name] --file medicate-env.txt
+    conda create --name [env_name] --file ../medicate-env.txt
 ```
 To ensure that requirement are fullfilled a test run with example files can be initiated by running test.py. If test.py run succesfully, requirements are fullfilled.
 

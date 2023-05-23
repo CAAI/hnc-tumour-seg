@@ -13,7 +13,7 @@ MEDIcaTe is tested on and supported by Python 3. Earlier versions are not guaran
 MEDIcaTe is installed by using the following lines.
 ```bash
     git clone https://github.com/CAAI/hnc-tumour-seg
-    cd hnc-tumour-seg/MEDIcaTe
+    cd hnc-tumour-seg
 ```
 ### Install editable mode:
 ```pip install -e .``` 

@@ -15,6 +15,11 @@ MEDIcaTe is installed by using the following lines.
     git clone https://github.com/CAAI/hnc-tumour-seg
     cd hnc-tumour-seg
 ```
+
+### Pre-install torch
+```
+pip install light-the-torch && ltt install torch
+```
 ### Install editable mode:
 ```pip install -e .``` 
 When using this mode a copy of MEDIcaTE is created on your computer, hence allowing for modifications. 

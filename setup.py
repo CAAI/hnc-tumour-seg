@@ -32,7 +32,7 @@ setuptools.setup(
                     "json",
                     "typing",
                     "torchio"],
-    install_requires=[],
+    #install_requires=[],
     
     entry_points={
         'console_scripts': [

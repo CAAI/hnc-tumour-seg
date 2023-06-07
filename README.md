@@ -13,8 +13,7 @@ and
 
 https://www.isrctn.com/ISRCTN16907234?q=16907234&filters=&sort=&offset=1&totalResults=1&page=1&pageSize=10
 
-Please cite the following paper, if you use the data underlying this publication or the tools shared in this repository:
-    <Will be added upon publication>
+Please cite the following paper, if you use the data underlying this publication or the tools shared in this repository: (Paper will be added once published). 
     
 The purpose of the developed models was to delineate the gross tumour volume based on [18F]FDG-PET/CT scans (GTV-PET). A clinical example is provided in the figure below. 
 ![hnc-tumour-seg](research-dia-kf.jpg)

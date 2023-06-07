@@ -1,7 +1,8 @@
 # Clinical evaluation of deep learning for tumour segmentation on PET/CT scans of head and neck cancer
 
-## Update (17th may 2023): This repository is currently under construction and will be up-and-running within a few days.
+This repository contains links to the exact versions of our computer code underlying the article "Clinical evaluation of deep learning for tumour segmentation on PET/CT scans of head and neck cancer". This includes the code used to develop five deep learning models and supporting code used for pre-processing and model evaluation.
 
+## Background
 Our research group implemented established deep learning frameworks and investigated their ability to delineate tumour volumes on PET/CT images.
 
 Information about this study inluding the protocol and statistical analysis plan (SAP) is available at: 
@@ -12,11 +13,12 @@ and
 
 https://www.isrctn.com/ISRCTN16907234?q=16907234&filters=&sort=&offset=1&totalResults=1&page=1&pageSize=10
 
-Please cite the following paper, if you are using the tools shared in this repository:
-    Will be added upon publication
+Please cite the following paper, if you use the data underlying this publication or the tools shared in this repository:
+    <Will be added upon publication>
     
+The purpose of the developed models was to delineate the gross tumour volume based on [18F]FDG-PET/CT scans (GTV-PET). A clinical example is provided in the figure below. 
 ![hnc-tumour-seg](research-dia-kf.jpg)
-
+    
 ### Introduction
 This repository holds all code we used to implement five different openly available Deep Learning methods.
 The links marked "our copy" hold the exact versions of the code, that were used in the publication.
@@ -29,11 +31,9 @@ Methods implemented:
 * Swin-UNETR. [Original repo.](https://github.com/Project-MONAI/research-contributions/tree/main/SwinUNETR/BTCV) [Our copy.](https://github.com/CAAI/SwinUNETR-DGK)
 * InnerEye. [Original repo.](https://github.com/microsoft/InnerEye-DeepLearning) [Our copy.](https://github.com/CAAI/InnerEye-DeepLearning-DGK)
 
-
-The MEDIcaTe package contains the tools used to pre-process and analyze image data (this draws heavily on well-established tools - you might prefer to use those directly.)
-
+The MEDIcaTe package in this repository contains the tools used to pre-process and analyze image data (this draws heavily on well-established tools - you might prefer to use those directly.)
+    
 The folder "method_implementation" uses the MEDIcaTe package and contains all code necessary use the deep learning methods, i.e. to ensure the data adheres to the specifications of each method, and code to calculate evaluation metrics and visualise the output of the methods. 
-
 
 ## System information
 Operating System: Ubuntu 20.04.4 LTS

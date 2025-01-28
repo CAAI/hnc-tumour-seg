@@ -38,13 +38,13 @@ Running scripts in MEDIcaTe requires installation of specific packages and libar
 ```bash
     conda create --name [env_name] --file ../medicate-env.txt
 ```
-To ensure that requirements are fullfilled a test run with example files can be initiated by running test.py. If test.py run succesfully, requirements are fullfilled.
 
 NOTE: The above assumes that opencv-python (cv2) is already install in your machine. If cv2 is not install you might need to do do 
 ```bash
     pip install opencv-python
 ```
-before you can run `test.py`.
+
+
 
 
 ### Install editable mode:
@@ -86,6 +86,13 @@ When using MEDIcaTe images (ct and pet) and labels must be 3D nifti files (.nii.
 
 Using the above structure, MEDIcaTe tools can be called as command line functions, with the structure descriped in the EXAMPLES below.
 Labels must be, when converted from nifti to numpy array, represented as binary array. where 1 represents label and 0 represents background.  
+
+### TEST
+To ensure that requirements are fullfilled a test run with example files can be initiated by running test.py. If test.py run succesfully, requirements are fullfilled.
+
+Note: To run test.py you will need to make sure you have some data named according to convention in "usage" above. 
+
+
 ### Command line functions
 At the moment this package includes three command line functions.
 **The first one**, test, takes no input and simply makes a test run of scripts in MEDIcaTe using example files. test is usefull for initially testing if packages and libraries is installed correctly.

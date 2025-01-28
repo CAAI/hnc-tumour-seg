@@ -40,6 +40,13 @@ Running scripts in MEDIcaTe requires installation of specific packages and libar
 ```
 To ensure that requirements are fullfilled a test run with example files can be initiated by running test.py. If test.py run succesfully, requirements are fullfilled.
 
+NOTE: The above assumes that opencv-python (cv2) is already install in your machine. If cv2 is not install you might need to do do 
+```bash
+    pip install opencv-python
+```
+before you can run `test.py`.
+
+
 ### Install editable mode:
 ```pip install -e .``` 
 When using this mode a copy of MEDIcaTE is created on your computer, hence allowing for modifications. 
